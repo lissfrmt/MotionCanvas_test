@@ -1,0 +1,14 @@
+{
+  "extends": "@motion-canvas/2d/tsconfig.project.json",
+  "compilerOptions": {
+        "target": "es6",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "baseUrl": "src",
+    "paths": {
+      "@videos": ["../../../Yandex.Disk.localized/resources/videos/*"],
+      "@images": ["../../../Yandex.Disk.localized/resources/images/*"]
+    }
+  },
+  "include": ["src"]
+}
